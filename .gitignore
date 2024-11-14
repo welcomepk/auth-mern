@@ -1,0 +1,48 @@
+# Node modules for both backend and frontend
+node_modules/
+
+# Environment variables
+**/.env
+
+# Build and output directories
+backend/dist/
+frontend/build/
+
+# TypeScript cache and output files
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Debugging and profiler logs
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Jest test and coverage files
+coverage/
+jest-cache/
+jest-output/
+
+# PM2 runtime files (if using PM2 for process management)
+pm2*.log
+
+# Ignore lock files (optional, if team decides)
+# package-lock.json
+# yarn.lock
